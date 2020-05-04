@@ -2,19 +2,23 @@ import matplotlib.pyplot as plt
 
 
 class DefaultStyles:
+    def __init__(self, df):
+        self.df = df
 
-    plt.style.use("fivethirtyeight")
+    def apply_style(self):
+        plt.style.use("bmh")
+        return self.df
 
-    def legible_header(self, df):
+    def legible_header(self):
         """
         Removes non-postgressy headers from a data frame
         """
-        df.columns = (
-            df.columns.str.strip()
+        self.df.columns = (
+            self.df.columns.str.strip()
             .str.lower()
             .str.replace("_", " ")
             .str.replace("(", "")
             .str.replace(")", "")
             .str.replace("#", "number")
         )
-        return df
+        return self.df
