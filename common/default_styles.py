@@ -1,13 +1,6 @@
-import matplotlib.pyplot as plt
-
-
-class DefaultStyles:
+class DataFrameHelper:
     def __init__(self, df):
         self.df = df
-
-    def apply_style(self):
-        plt.style.use("bmh")
-        return self.df
 
     def legible_header(self):
         """
