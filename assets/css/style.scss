@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+.page-header {
+    color: inherit;
+    background-color: #fff;
+    background-image: none;
+}
