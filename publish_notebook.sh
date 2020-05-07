@@ -2,5 +2,6 @@
 
 if [[ $1 == *.ipynb ]]; then
     fdname=$(dirname "$1" .ipynb)
-    jupyter nbconvert --to markdown --output-dir="/$fdname" "$1"
+    parentdir=$(dirname "$fdname")
+    jupyter nbconvert --to markdown --output-dir="$parentdir" "$1"
 fi
