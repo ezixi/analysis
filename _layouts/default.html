@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Data Engineering & Analytics  - Glasgow, Scotland</title>
         <meta name="keywords" content=" Data Engineering, Data Analysis, Google Analytics, Business Intelligence, Glasgow, UK, remote" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
         <meta name="description" content="I help people use data to improve their business.Get in touch if I can help you with any aspect of data engineering or analytics." />
         <meta name="google-site-verification" content="xqq5GLMntNHUki25gv2mXI4Z4IDWFA5am7skqRj_9pU" />
         <meta name="twitter:card" content="summary" />
@@ -44,22 +46,21 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-            <nav class="navbar">
-                <p class="navbar-text"><a href="http://www.backhandmedia.com" rel="me home" class="u-url u-uid"> Data Engineering Consultant in <span class="p-locality">Glasgow</span>, <span class="p-region">UK</span> <span class="p-postal-code">G46</span></a></p>
-                <ul class="nav nav-pills navbar-right fn">
-                  <li><a href="http://blog.backhandmedia.com" class="url" rel="me">Blog</a></li>
-                    <li><a href="//www.linkedin.com/in/bellmartin" class="url" rel="me">Linked In</a></li>
-                    <li><a href="//twitter.com/backhandmedia" class="url" rel="me">Twitter</a></li>
-                    <li><a href="//github.com/ezixi" class="url" rel="me">Github</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar">
+        <p class="navbar-text"><a href="http://www.backhandmedia.com" rel="me home" class="u-url u-uid"> Data Engineering and Analytics Consultant in <span class="p-locality">Glasgow</span>, <span class="p-region">UK</span> <span class="p-postal-code">G46</span></a></p>
+        <ul class="nav-pills">
+          <li><a href="http://blog.backhandmedia.com" class="url" rel="me">Blog</a></li>
+            <li><a href="//www.linkedin.com/in/bellmartin" class="url" rel="me">Linked In</a></li>
+            <li><a href="//twitter.com/backhandmedia" class="url" rel="me">Twitter</a></li>
+            <li><a href="//github.com/ezixi" class="url" rel="me">Github</a></li>
+        </ul>
+    </nav>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
+      <h2 class="project-tagline"></h2>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <a href="http://www.backhand.tech" class="btn">Hiring? I'm available for contract and full time opportunities. Read more about me.</a>
+        <a href="http://www.backhand.tech" class="btn url" rel="me">Hiring? I'm available for contract and full time opportunities. Read more about me.</a>
         <a href="mailto:martin@backhand.tech" class="btn">Contact Me</a>
       {% endif %}
       {% if site.show_downloads %}

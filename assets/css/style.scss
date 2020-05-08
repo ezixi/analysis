@@ -3,6 +3,39 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background-color: #fff;
+    color: #46433A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a:hover, .btn:hover {
+   color: #46433A;
+}
+
 .page-header {
     color: inherit;
     background-color: #fff;
@@ -16,4 +49,14 @@
 .btn {
     color: #1e6bb8;
     transition: none;
+}
+
+.navbar {
+    padding: 0 10px;
+}
+
+.nav-pills li {
+    display: inline;
+    padding-right: 15px;
+    float: right;
 }
