@@ -131,3 +131,6 @@ dmypy.json
 # source data
 source/
 
+# jekyll pages for github
+_site/
+
