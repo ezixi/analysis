@@ -1,3 +1,5 @@
+# Voyager 2 and the solar wind
+
 On November 5th 2018, a marvelous thing happened.
 
 
@@ -166,16 +168,26 @@ df.head()
 
 
 ```python
-plt.scatter("R", "VT", data=df)
+plt.scatter("DECIMAL YEAR", "VT", data=df)
 ```
 
 
 
 
-    <matplotlib.collections.PathCollection at 0x11500d490>
+    <matplotlib.collections.PathCollection at 0x1144aee50>
 
 
 
 
-![png](solar_wind_files/solar_wind_5_1.png)
+![png](solar_wind_files/solar_wind_6_1.png)
 
+
+
+```python
+
+```
+
+
+```python
+
+```
