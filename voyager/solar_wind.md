@@ -166,26 +166,16 @@ df.head()
 
 
 ```python
-plt.scatter("R", "W MOMENT", data=df)
+plt.scatter("R", "VT", data=df)
 ```
 
 
 
 
-    <matplotlib.collections.PathCollection at 0x1199c98d0>
+    <matplotlib.collections.PathCollection at 0x11500d490>
 
 
 
 
 ![png](solar_wind_files/solar_wind_5_1.png)
 
-
-
-```python
-
-```
-
-
-```python
-
-```
