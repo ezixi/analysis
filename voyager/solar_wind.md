@@ -1,7 +1,5 @@
 # Voyager 2 and the solar wind
 
-On November 5th 2018, a marvelous thing happened.
-
 
 ```python
 from common.chart_helper import *
@@ -45,5 +43,5 @@ plt.scatter("DECIMAL YEAR", "VT", data=df)
 
 
 
-![png](solar_wind_files/solar_wind_5_1.png)
+![png](solar_wind_files/solar_wind_4_1.png)
 
