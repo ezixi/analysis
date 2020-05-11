@@ -1,3 +1,2 @@
-# Hello world.
+# Voyager, and what happened when it reached the end of the solar system.
 
-## This is where some stuff will happen.
