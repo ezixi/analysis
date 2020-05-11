@@ -32,16 +32,36 @@ df = pd.read_csv('/Users/martinbell/analysis/voyager/source/VG2-SS-PLS-4-SUMM-1D
 
 
 ```python
-plt.scatter("DECIMAL YEAR", "VT", data=df)
+# convert decimal year into date
+
+df["DECIMAL YEAR"] = df["DECIMAL YEAR"].astype(int) + 1900
+df["DAY OF YEAR"] = df["DAY OF YEAR"].astype(int)
+df["DAY OF YEAR"] = df["DECIMAL YEAR"].astype(str) + df["DAY OF YEAR"].astype(str)
+df["DAY OF YEAR"] = pd.to_datetime(df["DAY OF YEAR"], format="%Y%j")
+
+```
+
+
+```python
+fig, ax = plt.subplots(dpi=72)
+ax.set_title("Solar Wind Density Over Voyager 2's Journey")
+ax.set_xlabel("Voyage Date")
+ax.set_ylabel("Density cm^3")
+plt.scatter("DAY OF YEAR", "DEN MOMENT", data=df)
 ```
 
 
 
 
-    <matplotlib.collections.PathCollection at 0x1144aee50>
+    <matplotlib.collections.PathCollection at 0x13041d9d0>
 
 
 
 
-![png](solar_wind_files/solar_wind_4_1.png)
+![png](solar_wind_files/solar_wind_5_1.png)
 
+
+
+```python
+
+```
