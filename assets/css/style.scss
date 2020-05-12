@@ -37,8 +37,14 @@ a:hover, .btn:hover {
 }
 
 .page-header {
-    background-image: url({{ '/assets/images/header.jpg?v=' | append: site.github.build_revision | relative_url }});
-
+    background-image: url('/assets/images/header.jpg');
+    background-color: #fff;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #666;
+    padding-top: 160px;
 }
 
 .project-name {
