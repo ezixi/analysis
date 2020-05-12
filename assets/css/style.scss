@@ -37,9 +37,7 @@ a:hover, .btn:hover {
 }
 
 .page-header {
-    color: inherit;
-    background-color: #ccc;
-    background-image: none;
+    background-image: url({{ '/assets/images/header.jpg?v=' | append: site.github.build_revision | relative_url }});
 
 }
 
