@@ -43,25 +43,14 @@ df["DAY OF YEAR"] = pd.to_datetime(df["DAY OF YEAR"], format="%Y%j")
 
 
 ```python
+# set chart attributes
 fig, ax = plt.subplots(dpi=72)
 ax.set_title("Solar Wind Density Over Voyager 2's Journey")
 ax.set_xlabel("Voyage Date")
 ax.set_ylabel("Density cm^3")
-plt.scatter("DAY OF YEAR", "DEN MOMENT", data=df)
+plt.scatter("DAY OF YEAR", "DEN MOMENT", data=df);
 ```
 
 
+![png](solar_wind_files/solar_wind_5_0.png)
 
-
-    <matplotlib.collections.PathCollection at 0x13041d9d0>
-
-
-
-
-![png](solar_wind_files/solar_wind_5_1.png)
-
-
-
-```python
-
-```
