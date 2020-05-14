@@ -1,11 +1,12 @@
 # About Backhand Technology
 
-Backhand Technology is a Data Engineering and Analytics Consultancy founded by Martin Bell. [Read more about me and Backhand Technology](http://www.backhand.tech)
+Backhand Technology is a Data Engineering and Analytics Consultancy founded by Martin Bell.
+
+[Read more about me and Backhand Technology](http://www.backhand.tech)
 
 [Get in touch](mailto:martin@backhand.tech) if I can help you define and implement new data pipelines and infrastructure, perform analysis, or build data visualisations that provide insight to your business.
 
-
-This is the home of any data focused analysis and blogging that interests me; some is complete, sometimes I just throw things here while I think about them, so make of that what yoi will.
+This is the home of any data focused analysis and blogging that interests me; some is complete, sometimes I just throw things here while I think about them, so make of that what you will.
 
 ### Current Projects
 
