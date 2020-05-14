@@ -40,14 +40,14 @@ a:hover, .btn:hover {
 .page-header {
     background-image: url('/assets/images/header.jpg');
     background-color: #fff;
-    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
     padding-top: 170px;
-    padding-bottom: -50px;
+    text-align: left;
 }
+
 
 .project-name {
     text-transform: capitalize;
