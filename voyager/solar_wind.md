@@ -12,7 +12,7 @@ column_names = [
     "DAY OF YEAR",
     "V2 ANGLE",
     "V2 HELIOLATITUDE",
-    "EARTH HELIOLATITUDE"
+    "EARTH HELIOLATITUDE",
     "V2 HELIOLONGITUDE",
     "EARTH HELIOLONGITUDE",
     "VR",
@@ -45,10 +45,10 @@ df["DAY OF YEAR"] = pd.to_datetime(df["DAY OF YEAR"], format="%Y%j")
 ```python
 # set chart attributes
 fig, ax = plt.subplots(dpi=72)
-ax.set_title("Solar Wind Density Over Voyager 2's Journey")
+ax.set_title("Solar Wind Velocity Over Voyager 2's Journey")
 ax.set_xlabel("Voyage Date")
-ax.set_ylabel("Density cm^3")
-plt.scatter("DAY OF YEAR", "DEN MOMENT", data=df);
+ax.set_ylabel("Velocity")
+plt.scatter("DAY OF YEAR", "VR", data=df);
 ```
 
 
