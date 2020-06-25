@@ -4,7 +4,7 @@ This is the home of any data focused analysis and blogging that interests us; so
 
 ## Current Projects
 
-1. <h3>[Voyager 2 Plasma Experiment](http://analysis.backhand.tech/voyager/solar_wind)</h3>
+1. <h3><a href="http://analysis.backhand.tech/voyager/solar_wind">Voyager & The Solar Wind</a></h3>
 
     This is very much a WIP, but I'm interested in how we define 'the edge of the solar system' - it's actually a trickier question than you might think. I've started exploring some data from the [Voyager 2 Plasma Experiment](https://voyager.jpl.nasa.gov/mission/spacecraft/instruments/pls/) in a Jupyter Notebook.
 
