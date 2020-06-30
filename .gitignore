@@ -133,4 +133,6 @@ source/
 
 # jekyll pages for github
 _site/
+.jekyll-metadata
+
 
