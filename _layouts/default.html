@@ -1,56 +1,87 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
- <head profile='http://www.w3.org/2006/03/hcard'>
+ <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Data Analysis - Data Analytics &amp; Data Engineering Consultants - Backhand Technology</title>
+        <title>{{ page.title | default: site.title }}  - Data Analytics &amp; Data Engineering Consultants - Backhand Technology</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300&display=swap' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://backhand.tech/style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="https://backhand.tech/images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="https://backhand.tech/images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="https://backhand.tech/images/favicon-16x16.png">
         <link rel="manifest" href="https://backhand.tech/images/site.webmanifest">
+        <link rel="canonical" href="https://analysis.backhand.tech/{{ page.url }}" />
         <meta name="keywords" content=" Data Engineering, Data Analysis, Google Analytics, Business Intelligence, Glasgow, UK, remote" />
         <meta name="description" content="Data Makes Your Business Grow. Get in touch if you need help improving how you use your data." />
         <meta name="google-site-verification" content="xqq5GLMntNHUki25gv2mXI4Z4IDWFA5am7skqRj_9pU" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@backhandtech" />
         <meta name="twitter:creator" content="@backhandtech" />
-        <meta name="twitter:image" content="http://www.backhand.tech/images/social.png" />
-        <meta property="og:url" content="http://backhand.tech" />
+        <meta name="twitter:image" content="https://backhand.tech/images/social.jpg" />
+        <meta property="og:url" content="https://analysis.backhand.tech/{{ page.url }}" />
         <meta property="og:title" content="Backhand Technology" />
         <meta property="og:description" content="Data Makes Your Business Grow. Get in touch if you need help improving how you use your data." />
-        <meta property="og:image" content="http://www.backhand.tech/images/social.png" />
-        <script type='application/ld+json'>
-        {
-        "@context": "http://www.schema.org",
-        "@type": "person",
-        "name": "Martin Bell",
-        "jobTitle": "Data Engineering Consultant",
-        "url": "https://backhand.tech",
-        "email": "info@backhand.tech"
+        <meta property="og:image" content="https://backhand.tech/images/social.jpg" />
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "ProfessionalService",
+            "additionalType": "http://www.productontology.org/doc/Data_analysis",
+            "name": "Backhand Technology Ltd",
+            "@id": "https://corporation.backhand.tech",
+            "description": "Data Analytics Consulting
+        We are Data Analytics experts, and we have been adding value to our clients’ businesses by deriving insights from data for years. We use modern analytics and data engineering processes to unlock the data hidden in your systems, model it explicitly for your business, and create insights that help drive your business forward.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Glasgow",
+                "postalCode": "G46"
+                },
+            "contactPoint": {
+                "email": "info@backhand.tech"
+                },
+            "priceRange": "$$",
+            "image": "https://backhand.tech/images/backhand_technology.png",
+            "logo": "https://backhand.tech/images/backhand_technology.png",
+            "url": "https://backhand.tech",
+            "sameAs": ["https://twitter.com/backhandtech","https://www.linkedin.com/company/backhand-technology/"],
+            "founder": {
+                "@type": "Person",
+                "familyName": "Bell",
+                "givenName": "Martin",
+                "worksFor": "https://backhand.tech",
+                "jobTitle": "Managing Director",
+                "image": "https://backhand.tech/images/martin_bell.jpg",
+                "gender": "http://schema.org/Male",
+                "sameAs": ["https://twitter.com/backhand","https://www.linkedin.com/in/bellmartin/"],
+                "email": "martin@backhand.tech"
+                }
         }
         </script>
-        <script src="https://use.fontawesome.com/73f45f37af.js" type="text/plain" cookie-consent="functionality"></script>
+        <script src="https://use.fontawesome.com/73f45f37af.js" type="text/javascript" ></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-275020-4" type="text/plain" cookie-consent="tracking" ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-275020-4" type="text/javascript" ></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            var _hsq = window._hsq = window._hsq || [];
+            _hsq.push(['addPrivacyConsentListener', function (consent) {
+                if (consent.allowed) {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'UA-275020-4');
+                }
+            }]);
 
-          gtag('config', 'UA-275020-4');
         </script>
     </head>
     <body>
-        <div class="container-fluid h-card">
+        <div class="container-fluid">
             <nav class="navbar justify-content-center">
-                <h1><a href="http://www.backhand.tech" rel="me home" class="navbar-brand u-url u-uid">Backhand Technology</a></h1>
-                <p class="d-none d-xl-block nav navbar-text">Data Analytics & Data Engineering Consultants in <span class="p-locality">Glasgow</span>, <span class="p-region">UK</span> <span class="p-postal-code">G46</span></p>
-                <ul class="nav justify-content-center fn">
+                <h1><a href="https://backhand.tech" class="navbar-brand">Backhand Technology</a></h1>
+                <p class="d-none d-xl-block nav navbar-text">Data Analytics & Data Engineering Consultants in Glasgow, UK G46</p>
+                <ul class="nav  justify-content-center">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -62,29 +93,37 @@
                         </div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="https://backhand.tech/index.html#our_principles">Our Principles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://backhand.tech/about_backhand_technology.html#about_backhand_technology">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://backhand.tech/about_backhand_technology.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://analysis.backhand.tech/">Analysis</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://backhand.tech/careers.html#careers">Careers</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://backhand.tech/pricing.html#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="http://analysis.backhand.tech">Analysis</a></li>
-                    <li class="nav-item"><a class="u-email nav-link" href="mailto:info@backhand.tech">Contact Us</a></
+                    <li class="nav-item"><a class="nav-link" href="mailto:info@backhand.tech">Contact Us</a></
                 </ul>
             </nav>
-            <main id="content" class="main-content" role="main">
+            <main>
                 <div class="jumbotron jumbotron-fluid border-bottom border-top">
                     <div id="container">
                         <h1 class="display-4">Data Makes Your Business Grow</h1>
                         <p>Get in touch if you need help improving how you use <em>your</em> data.</p>
-                        <p><a class="btn btn-primary btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
+                        <p><a class="btn btn-primary btn-lg" href="mailto:info@backhand.tech">Contact Us</a></p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col blog_content">
                         {{ content }}
+
+                        <div class="row border-top justify-content-center">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                            <script type="IN/Share" data-url="https://analysis.backhand.tech/{{ page.url }}"></script>
+                        </div>
                     </div>
                 </div>
+
          </main>
-        <footer class="container-fluid">
+            <footer class="container-fluid">
                 <div class="row">
+
                     <div class="col-lg">
                         <h1>Services</h1>
                         <ul>
@@ -121,34 +160,27 @@
                             <li><a href="https://backhand.tech/about_backhand_technology.html">About Us</a></li>
                             <li><a href="https://backhand.tech/careers.html">Careers</a></li>
                             <li><a href="https://backhand.tech/pricing.html">Pricing</a></li>
+                            <li><a href="https://analysis.backhand.tech/about/colophon">Colophon</a></li>
                         </ul>
                     </div>
                     <div class="col-lg">
-                        <a class="social" href="https://twitter.com/intent/follow?screen_name=backhandtech" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+                        <a class="social" href="https://twitter.com/intent/follow?screen_name=backhandtech" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank" rel="noreferrer"><i class="fa fa-2x fa-twitter"></i></a>
                         <a class="social" href= "https://www.linkedin.com/company/backhand-technology/"><i class="fa fa-2x fa-linkedin"></i></a>
                         <a class="social" href= "https://github.com/Backhand-Technology"><i class="fa fa-2x fa-github-square"></i></a>
                         <address><a href="mailto:info@backhand.tech">info@backhand.tech</a></address>
                         <p>&copy; Backhand Technology Ltd.</p>
-                        <a href="http://analysis.backhand.tech/about/colophon">Colophon</a>
                     </div>
                 </div>
             </footer>
-
         </div>
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
-        <script type="text/javascript" src="https://backhand.tech/scripts/script.js" >
-        <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
-        <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
-        cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"en","website_name":"Backhand Technology Ltd."});
-        });
-        </script>
-
-        <noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow">FreePrivacyPolicy.com</a></noscript>
-        <!-- End Cookie Consent -->
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7937413.js"></script>
+        <!-- End of HubSpot Embed Code -->
+        <script type="text/javascript" src="https://backhand.tech/scripts/script.js"></script>
     </body>
 </html>
 
