@@ -6,9 +6,9 @@ In fact, it was something that teams of scientists had been expecting, even hopi
 
 This is very much a WIP, but I'm interested in how we define 'the edge of the solar system' - it's actually a trickier question than you might think.
 
-<h3><a href="https://analysis.backhand.tech/voyager/solar_wind">Voyager & The Solar Wind</a></h3>
+<h3><a href="/voyager/solar_wind">Voyager & The Solar Wind</a></h3>
 
  I've started exploring some data from the [Voyager 2 Plasma Experiment](https://voyager.jpl.nasa.gov/mission/spacecraft/instruments/pls/) in a Jupyter Notebook.
 
-[See more.](https://analysis.backhand.tech/voyager/solar_wind)
+[See more.](/voyager/solar_wind)
 
