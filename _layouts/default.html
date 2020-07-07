@@ -108,17 +108,29 @@
                         <p><a class="btn btn-primary btn-lg" href="mailto:info@backhand.tech">Contact Us</a></p>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col blog_content">
-                        {{ content }}
-
-                        <div class="row border-top justify-content-center">
+                <div class="container-fluid justify-content-center">
+                    <div class="row">
+                        <div class="col-lg-9 blog_content">
+                            {{ content }}
+                        </div>
+                        <div class="col-lg-3 subnav">
+                            <!--<h3>Read More</h3>-->
+                            {% for item in site.data.navigation.toc %}
+                                <h4>{{ item.title }}</h4>
+                                <ul class="list-unstyled">
+                                    {% for entry in item.subfolderitems %}
+                                    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="row border-top justify-content-center">
                             <span class="social">
                                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </span>
                             <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
                             <script type="IN/Share" data-url="https://analysis.backhand.tech/{{ page.url }}"></script>
-                        </div>
                     </div>
                 </div>
 

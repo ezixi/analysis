@@ -1,0 +1,17 @@
+toc:
+  # - title: Principles
+  #   subfolderitems:
+  #     - page: Understanding Your Data Is In Every Employee's Job Description
+  #       url: /Principles/understanding_your_data_is_in_every_employees_job_description
+
+  # - title: Voyager
+  #   subfolderitems:
+  #     - page: Voyager
+  #       url: /voyager/index
+  #     - page: Voyager And The Solar Wind
+  #       url: /voyager/solar_wind
+
+  - title: About
+    subfolderitems:
+      - page: Colophon
+        url: /about/colophon
