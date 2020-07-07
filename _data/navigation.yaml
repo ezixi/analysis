@@ -4,14 +4,12 @@ toc:
   #     - page: Understanding Your Data Is In Every Employee's Job Description
   #       url: /Principles/understanding_your_data_is_in_every_employees_job_description
 
-  # - title: Voyager
+  # - title: Asymptosy
   #   subfolderitems:
+  #     - page: Introduction
+  #       url: /Asymptosy/index
   #     - page: Voyager
-  #       url: /voyager/index
-  #     - page: Voyager And The Solar Wind
-  #       url: /voyager/solar_wind
-
-  - title: About
-    subfolderitems:
-      - page: Colophon
-        url: /about/colophon
+  #       url: /Asymptosy/voyager/index
+  #       subsubfolderitems:
+  #         - page: Voyager And The Solar Wind
+  #           url: /Asymptosy/voyager/solar_wind
