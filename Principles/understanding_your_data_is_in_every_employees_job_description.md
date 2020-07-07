@@ -1,8 +1,6 @@
 # Understanding Your Data Is In Every Employee's Job Description.
 
-There was a moment, in the not so distant past, when companies would employ a data team. It might have been known by other names - ‘Business Intelligence’ maybe, or  ‘Analytics’ - but each team was pretty much the same; a small collection of the random people in the org who knew what a pivot table was.
-
-For many organizations the data team would be part of the finance group. On the face of it this was because that team had the most to lose if anyone lost track of where all the money was; in reality it was just a natural consequence of a bunch of Excel geeks hanging out together, like basic life spontaneously organizing around deep-sea hot springs.
+There was a moment, in the not so distant past, when companies would employ a data team. It might have been known by other names - ‘Business Intelligence’ maybe, or  ‘Analytics’ - but each team was pretty much the same; a small collection of the few people in the org who knew what a pivot table was. For many organizations the data team would be part of the finance group. On the face of it this was because that team had the most to lose if anyone lost track of where all the money was; in reality it was just a natural consequence of a bunch of Excel geeks hanging out together, like basic life spontaneously organizing around deep-sea hot springs.
 
 These were the people who could ‘build a report’ for the CFO, ‘crunch some numbers’ to ‘get a deck together’ for a sale presentation, or ‘work til midnight three nights on the run so the CEO can speak with confidence to the board on an important subject they really should have no business talking about’. They were where the data _lived_.
 
