@@ -1,14 +1,13 @@
 # Voyager 2 and The Solar Wind
 
-In 2008 something extraordinary happened.
-
-Far, far away, - further than anything made by humans had ever been before - a smallish chunk of metal and plastic moved through a barrier. It could have been ingnored; nothing really changed, no walls were torn down, no gates were opened, no tickets were stamped. But it was something to be noted nonetheless.
-
-In fact, it was something that teams of scientists had been expecting, evne hoping for for some time. They even thought it had already happened.
-
 
 ```python
 from common.chart_helper import *
+```
+
+
+```python
+df = pd.read_csv('/Users/martinbell/analysis/voyager/source/VG2-SS-PLS-4-SUMM-1DAY-AVG-V1.0/DATA/2018_021_AUG.TAB', sep='\s+', header = None, names = column_names, index_col=False)
 ```
 
 
@@ -33,11 +32,6 @@ column_names = [
 
 
 ```python
-df = pd.read_csv('/Users/martinbell/analysis/voyager/source/VG2-SS-PLS-4-SUMM-1DAY-AVG-V1.0/DATA/2018_021_AUG.TAB', sep='\s+', header = None, names = column_names, index_col=False)
-```
-
-
-```python
 # convert decimal year into date
 
 df["DECIMAL YEAR"] = df["DECIMAL YEAR"].astype(int) + 1900
@@ -58,5 +52,5 @@ plt.scatter("DAY OF YEAR", "VR", data=df);
 ```
 
 
-![png](solar_wind_files/solar_wind_6_0.png)
+![png](solar_wind_files/solar_wind_5_0.png)
 
