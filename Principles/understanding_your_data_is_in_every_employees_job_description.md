@@ -7,7 +7,7 @@ They were where the data _lived_.
 Time went on and these data teams got more sophisticated;  they collected data in a single place so it could be reused, modelled it, moved it, aggregated it, and ensured its quality. They owned it. In fact, they would have so much ownership over the data that _no one else in the company could do anything with it._
 
 
-### The Mess, Shame, and Tragedy of Hidden Data
+## The Mess, Shame, and Tragedy of Hidden Data
 
 Without sophisticated SQL skills, the sales team couldn’t pull a customer revenue report. Without setting up an ODBC connection, marketing couldn’t measure how well the latest campaign had performed. Instead, they’d get a weekly, or daily if they were _really_ lucky, puke of data in their inbox and be left to fight over which team had the ‘right’ numbers.
 
@@ -20,7 +20,7 @@ It was a shame because it meant that the expensive, time-consuming work the data
 And it was tragic because not knowing what data meant left highly skilled team members unable to succeed in their jobs.
 
 
-### The Crazy, Free-Wheelin’ World of Self-Service
+## The Crazy, Free-Wheelin’ World of Self-Service
 
 Luckily, it got better. We’re not in that situation anymore. (If _you_ are, [get in touch](https://backhand.tech). We can help.)
 
@@ -33,7 +33,7 @@ In its ubiquity, data has become a new language; bar charts are cut and pasted i
 Far from being a rarified preserve of a specialised team; businesses in the 21st Century are swimming in a glut of data.
 
 
-### Modern Employment Is Dependent on Data Literacy
+## Modern Employment Is Dependent on Data Literacy
 
 But what happens when that data is wrong, or misunderstood?
 
@@ -48,7 +48,7 @@ Expecting people to measure their daily work and use data to improve it means th
 If people understand the importance of metrics, how they are derived and what they mean to their daily workflow, they will be empowered to ask questions, dig deeper, and share knowledge. Experiments (not just online) can be attempted with confidence and people will know when they have failed more quickly, getting them back on a successful track.
 
 
-### A Common Language
+## A Common Language
 
 When you define your company successes through data your employees can only share in that success if they have a clear understanding of how they can influence it. That means understanding how their work is measured and how they are judged. It also means defining their relationship to the data they produce, consume and change, and how that data fits into the bigger picture.
 
