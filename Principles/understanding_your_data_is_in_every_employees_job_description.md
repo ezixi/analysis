@@ -1,5 +1,7 @@
 # Understanding Your Data Is In Every Employee's Job Description
 
+<img src="https://backhand.tech/images/blog/Statistics.jpg" alt="Understanding Your Data Is In Every Employee's Job Description" />
+
 There was a time, in the not so distant past, when companies would employ a data team. It might have been known by other names - ‘Business Intelligence’ maybe, or  ‘Analytics’ - but the goals were similar. These were the people who could ‘build a report’ for the CFO, ‘crunch some numbers’ to ‘get a deck together’ for a sale presentation, or ‘work til midnight three nights on the run so the CEO can speak with confidence to the board on an important subject they really should have no business talking about’.
 
 They were where the data _lived_.
@@ -53,3 +55,6 @@ If people understand the importance of metrics, how they are derived and what th
 When you define your company successes through data your employees can only share in that success if they have a clear understanding of how they can influence it. That means understanding how their work is measured and how they are judged. It also means defining their relationship to the data they produce, consume and change, and how that data fits into the bigger picture.
 
 To talk about data in that way requires a shared understanding, a common way of communicating ideas. Something as simple as a data dictionary, giving clarity around data, objectives and the metrics that support them, will reinforce a team’s common purpose. Company metrics must be calculated transparently, business objects clearly defined. A company where everyone in the team shares a common understanding of its targets - of what makes the company _move_ - can align goals, have simpler conversations and more success with data.
+
+
+<small>Infographic vector created by stories — www.freepik.com</small>
