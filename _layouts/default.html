@@ -119,7 +119,7 @@
                               {% for item in site.data.navigation.toc %}
                                 <h3>{{ item.title }}</h3>
                                   {% if item.subfolderitems[0] %}
-                                    <ul class="list-unstyled">
+                                    <ul>
                                       {% for entry in item.subfolderitems %}
                                           <li><a href="{{ entry.url }}">{{ entry.page }}</a>
                                             {% if entry.subsubfolderitems[0] %}
