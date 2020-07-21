@@ -1,6 +1,6 @@
 # Understanding Your Data Is In Every Employee's Job Description
 
-<img src="https://backhand.tech/images/blog/Statistics.jpg" alt="Understanding Your Data Is In Every Employee's Job Description" />
+<figure class="figure"><img src="https://backhand.tech/images/blog/Statistics.jpg" alt="Understanding Your Data Is In Every Employee's Job Description" /></figure>
 
 There was a time, in the not so distant past, when companies would employ a data team. It might have been known by other names - ‘Business Intelligence’ maybe, or  ‘Analytics’ - but the goals were similar. These were the people who could ‘build a report’ for the CFO, ‘crunch some numbers’ to ‘get a deck together’ for a sale presentation, or ‘work til midnight three nights on the run so the CEO can speak with confidence to the board on an important subject they really should have no business talking about’.
 
