@@ -72,7 +72,7 @@
     </head>
     <body>
         <div class="container-fluid">
-            <nav class="navbar justify-content-center">
+            <nav class="navbar justify-content-center border-bottom">
                 <h1><a href="https://backhand.tech" class="navbar-brand">Backhand Technology</a></h1>
                 <p class="d-none d-xl-block nav navbar-text">Data Analytics & Data Engineering Consultants in Glasgow, UK G46</p>
                 <ul class="nav  justify-content-center">
@@ -95,7 +95,7 @@
                 </ul>
             </nav>
             <main>
-                <div class="jumbotron jumbotron-fluid border-bottom border-top">
+                <div class="d-none d-lg-block jumbotron jumbotron-fluid border-bottom border-top">
                     <div id="container">
                         <h1 class="display-4">Data Makes Your Business Grow</h1>
                         <p>Get in touch if you need help improving how you use <em>your</em> data.</p>
@@ -115,26 +115,33 @@
                             </div>
                         </div>
                         <div class="col-lg-3 subnav">
-                            {% if site.data.navigation.toc[0] %}
-                              {% for item in site.data.navigation.toc %}
-                                <h3>{{ item.title }}</h3>
-                                  {% if item.subfolderitems[0] %}
-                                    <ul>
-                                      {% for entry in item.subfolderitems %}
-                                          <li><a href="{{ entry.url }}">{{ entry.page }}</a>
-                                            {% if entry.subsubfolderitems[0] %}
-                                              <ul>
-                                              {% for subentry in entry.subsubfolderitems %}
-                                                  <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
-                                              {% endfor %}
-                                              </ul>
-                                            {% endif %}
-                                          </li>
-                                      {% endfor %}
-                                    </ul>
-                                  {% endif %}
-                                {% endfor %}
-                            {% endif %}
+                            <div class="row justify-content-center border-bottom">
+                                <h3>About Backhand Technology</h3>
+                                <p class="font-italic">We use modern analytics and data engineering processes to unlock the data hidden in your systems, model it explicitly for your business, and create insights that help drive your business forward.</p>
+                                <p><a class="btn btn-secondary" href="https://backhand.tech">Learn More</a></p>
+                            </div>
+                            <div class="row">
+                                {% if site.data.navigation.toc[0] %}
+                                  {% for item in site.data.navigation.toc %}
+                                    <h4>{{ item.title }}</h4>
+                                      {% if item.subfolderitems[0] %}
+                                        <ul>
+                                          {% for entry in item.subfolderitems %}
+                                              <li><a href="{{ entry.url }}">{{ entry.page }}</a>
+                                                {% if entry.subsubfolderitems[0] %}
+                                                  <ul>
+                                                  {% for subentry in entry.subsubfolderitems %}
+                                                      <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+                                                  {% endfor %}
+                                                  </ul>
+                                                {% endif %}
+                                              </li>
+                                          {% endfor %}
+                                        </ul>
+                                      {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,7 +191,7 @@
                         </ul>
                     </div>
                     <div class="col-lg">
-                        <a class="social" href="https://twitter.com/intent/follow?screen_name=backhandtech" onclick="return !window.open(this.href, "Twitter", "width=600,height=500")" target="_blank" rel="noreferrer"><i class="fa fa-2x fa-twitter"></i></a>
+                        <a class="social" href="https://twitter.com/intent/follow?screen_name=backhandtech" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank" rel="noreferrer"><i class="fa fa-2x fa-twitter"></i></a>
                         <a class="social" href= "https://www.linkedin.com/company/backhand-technology/"><i class="fa fa-2x fa-linkedin"></i></a>
                         <a class="social" href= "https://github.com/Backhand-Technology"><i class="fa fa-2x fa-github-square"></i></a>
                         <address><a href="mailto:info@backhand.tech">info@backhand.tech</a></address>
