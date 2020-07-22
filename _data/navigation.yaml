@@ -2,9 +2,9 @@ toc:
   - title: Principles
     subfolderitems:
       - page: Data Quality Is Paramount
-        url: /Principles/data_quality
+        url: /Principles/data_quality.html
       - page: Understanding Your Data Is In Every Employee's Job Description
-        url: /Principles/understanding_your_data_is_in_every_employees_job_description
+        url: /Principles/understanding_your_data_is_in_every_employees_job_description.html
   # - title: Asymptosy
   #   subfolderitems:
   #     - page: Introduction
