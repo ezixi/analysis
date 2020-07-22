@@ -1,3 +1,7 @@
+---
+feature_image: "https://backhand.tech/images/blog/Statistics.jpg"
+---
+
 # Understanding Your Data Is In Every Employee's Job Description
 
 <figure class="figure"><img src="https://backhand.tech/images/blog/Statistics.jpg" alt="Understanding Your Data Is In Every Employee's Job Description" /></figure>

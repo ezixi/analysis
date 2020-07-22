@@ -1,3 +1,8 @@
+---
+feature_image: "https://backhand.tech/images/blog/quality.jpg"
+seo_description: "A commitment to good design, testing, and monitoring at every level not only ensures that your data insights are real and useful, but also allows you to move faster and add value."
+---
+
 # Data Quality Is Paramount
 
 <figure class="figure"><img src="https://backhand.tech/images/blog/quality.jpg" alt="Data Quality" /></figure>
