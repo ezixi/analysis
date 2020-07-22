@@ -5,12 +5,13 @@ toc:
         url: /Principles/data_quality.html
       - page: Understanding Your Data Is In Every Employee's Job Description
         url: /Principles/understanding_your_data_is_in_every_employees_job_description.html
-  # - title: Asymptosy
-  #   subfolderitems:
-  #     - page: Introduction
-  #       url: /Asymptosy/index
-  #     - page: Voyager
-  #       url: /Asymptosy/voyager/index
-  #       subsubfolderitems:
-  #         - page: Voyager And The Solar Wind
-  #           url: /Asymptosy/voyager/solar_wind
+
+  - title: Asymptosy
+    subfolderitems:
+      - page: Introduction
+        url: /Asymptosy/index.html
+      - page: Voyager
+        url: /Asymptosy/voyager/index.html
+        subsubfolderitems:
+          - page: Voyager And The Solar Wind
+            url: /Asymptosy/voyager/solar_wind.html
