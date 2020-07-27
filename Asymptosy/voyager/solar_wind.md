@@ -7,11 +7,6 @@ from common.chart_helper import *
 
 
 ```python
-df = pd.read_csv('/Users/martinbell/analysis/voyager/source/VG2-SS-PLS-4-SUMM-1DAY-AVG-V1.0/DATA/2018_021_AUG.TAB', sep='\s+', header = None, names = column_names, index_col=False)
-```
-
-
-```python
 column_names = [
     "DECIMAL YEAR",
     "DAY OF YEAR",
@@ -28,6 +23,11 @@ column_names = [
     "W MOMENT",
     "W FIT",
     "R"]
+```
+
+
+```python
+df = pd.read_csv('/Users/martinbell/analysis/voyager/source/VG2-SS-PLS-4-SUMM-1DAY-AVG-V1.0/DATA/2018_021_AUG.TAB', sep='\s+', header = None, names = column_names, index_col=False)
 ```
 
 
