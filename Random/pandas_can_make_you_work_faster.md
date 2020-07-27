@@ -1,4 +1,4 @@
-# Pandas Can Make You Work Faster
+# No, Coding Is Required
 I'm currently looking for work. (If I can help you, [get in touch](https://backhand.tech/contact.html#contact))
 
 As part of a technical take-home project I had to use a proprietary ETL tool to mangle some data from a couple of api endpoints, collate it and push the data into an Excel file. Simple, you may say...
