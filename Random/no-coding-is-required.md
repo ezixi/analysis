@@ -18,7 +18,12 @@ import requests
 
 
 ```python
-datasets = ['RUTH', 'IRID', 'RHOD', 'PALL']
+datasets = [
+    'RUTH',
+    'IRID',
+    'RHOD',
+    'PALL'
+]
 ```
 
 
