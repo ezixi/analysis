@@ -1,4 +1,9 @@
 toc:
+  - title: Random
+    subfolderitems:
+      - page: No, Coding Is Required
+        url: /Random/no-coding-is-required.html
+
   - title: Principles
     subfolderitems:
       - page: Data Quality Is Paramount
@@ -6,10 +11,7 @@ toc:
       - page: Understanding Your Data Is In Every Employee's Job Description
         url: /Principles/understanding_your_data_is_in_every_employees_job_description.html
 
-  - title: Random
-    subfolderitems:
-      - page: No, Coding Is Required
-        url: /Random/no-coding-is-required.html
+
 
   # - title: Asymptosy
   #   subfolderitems:
