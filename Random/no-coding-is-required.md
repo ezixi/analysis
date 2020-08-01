@@ -24,6 +24,7 @@ datasets = [
     'RHOD',
     'PALL'
 ]
+api_key = 'secret_key'
 ```
 
 
@@ -31,10 +32,8 @@ datasets = [
 def get_data(dataset):
     response = requests.get(f'https://www.quandl.com/api/v3/datasets/JOHNMATT/{dataset}?api_key={api_key}')
     raw = response.json()['dataset']
-    cols = raw['column_names']
-    name = raw['name']
-    df = pd.DataFrame(raw['data'], columns=cols)
-    df['Dataset name'] = name
+    df = pd.DataFrame(raw['data'], columns=raw['column_names'])
+    df['Dataset name'] = raw['name']
     return df
 ```
 
@@ -46,4 +45,9 @@ df = pd.concat([get_data(dataset) for dataset in datasets])
 
 ```python
 df.to_excel("~/Desktop/metal_prices.xlsx", index=False, sheet_name='Rare Metal Prices')
+```
+
+
+```python
+
 ```
