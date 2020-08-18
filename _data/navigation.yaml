@@ -1,6 +1,8 @@
 toc:
   - title: Random
     subfolderitems:
+      - page: Run dbt Tests on Your Models Automatically On Commit
+        url: /Random/run-dbt-tests-on-commit.html
       - page: No, Coding Is Required
         url: /Random/no-coding-is-required.html
 
