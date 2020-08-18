@@ -1,4 +1,5 @@
 ---
+feature-image: "https://miro.medium.com/max/1280/1*30xKrXunX3H-vcikZR32GA.jpeg"
 seo_description: "Run dbt Tests on Your Models Automatically On Commit"
 ---
 
@@ -8,7 +9,7 @@ I love [dbt](https://www.getdbt.com/). There. I said it.
 
 I first discovered it at one of my team's regular learning lunches; one of the Data Engineers suggested we watch a [demo from Fishtown Analytics](https://www.youtube.com/watch?v=qqlbYDfqeI4) and as soon as we gave it a spin it almost immediately solved many problems we were facing with managing database transformations in plain SQL and Python.
 
-As we worked more with the framework we realised the benefits of simple documentation and tests. Tests were the best(s), but it always seemed to be something that I would have to remind my team to perform before they committed their changes to the repo. My solution was to force them to run tests before they commited. Using the [pre-commit framework](https://pre-commit.com/), it's a simple matter to make tests a requirement to a commit:
+As we worked more with the framework we realised the benefits of simple documentation and tests. Tests were the best(s), but it always seemed to be something that I would have to remind my team to perform before they committed their changes to the repo. My solution was to force them to run tests before they committed. Using the [pre-commit framework](https://pre-commit.com/), it's a simple matter to make tests a requirement to a commit:
 
 ### 1. Install pre-commit:
 
@@ -51,6 +52,6 @@ dbt test -m "$fbname"
 
 ```pre-commit install```
 
-Now, every time you make a change to a model, a test must pass on your local versions before it can be commited. I'd recommend only having a subset of data in your dev environment to make the tests run quickly, and making sure that _every_ model has an associated test.
+Now, every time you make a change to a model, a test must pass on your local versions before it can be committed. I'd recommend only having a subset of data in your dev environment to make the tests run quickly, and making sure that _every_ model has an associated test.
 
 Get the code from our [github repo](https://github.com/Backhand-Technology/dbt_tools).
