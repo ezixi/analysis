@@ -6,10 +6,8 @@ Far, far away, - further than anything made by humans had ever been before - a s
 
 In fact, it was something that teams of scientists had been expecting, even hoping for for some time. They even thought it had already happened.
 
-This is very much a WIP, but I'm interested in how we define 'the edge of the solar system' - it's actually a trickier question than you might think.
+This is very much a WIP, but I'm interested in how we define 'the edge of the solar system' - it's a trickier question than at first appears.
 
 <h3><a href="/Asymptosy/voyager/solar_wind">Voyager And The Solar Wind</a></h3>
-
- I've started exploring some data from the [Voyager 2 Plasma Experiment](https://voyager.jpl.nasa.gov/mission/spacecraft/instruments/pls/) in a Jupyter Notebook.
 
 
