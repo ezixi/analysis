@@ -4,6 +4,8 @@ seo_description: "Creating a CI/CD Azure Pipeline for a dbt data warehouse on Go
 
 # CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines
 
+## Defaults
+
 ```yaml
 ---
 trigger:
@@ -17,11 +19,29 @@ pool:
 
 container:
   image: python:3.8
+```
 
+## Variables
+
+```yaml
 variables:
   PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
+```
 
+## Deployment Steps
+
+1. Checkout repo
+ 
+```yaml
 steps:
+  - checkout: self
+    submodules: true
+    path: <repo name>
+```
+
+1. Download required files
+
+```yaml
   - task: DownloadSecureFile@1
     name: GettingServiceAccount
     displayName: 'Downloading Service Account'
@@ -33,11 +53,11 @@ steps:
     displayName: 'Downloading Profile'
     inputs:
       secureFile: 'profiles.yml'
+```
 
-  - checkout: self
-    submodules: true
-    path: <repo name>
+1. Cache Dependencies
 
+```yaml
   - task: Cache@2
     inputs:
       key: 'python | "$(Agent.OS)" | requirements.txt'
@@ -46,7 +66,11 @@ steps:
         python
       path: $(PIP_CACHE_DIR)
     displayName: Cache pip packages
+```
 
+1. Set Up dbt
+
+```yaml
   - script: |
       mkdir ~/.dbt
       echo Installing $(SettingProfile.secureFilePath) to the ~/.dbt...
@@ -54,7 +78,11 @@ steps:
       echo Installing $(GettingServiceAccount.secureFilePath) to the ~/.dbt...
       cp $(GettingServiceAccount.secureFilePath) ~/.dbt/<name of service account creds>
     displayName: Installing Profile
+```
 
+1. Create and Test the dbt models
+
+```yaml
   - script: |
       export PATH=$PATH:/home/vsts_azpcontainer/.local/bin
       pip install -r requirements.txt
