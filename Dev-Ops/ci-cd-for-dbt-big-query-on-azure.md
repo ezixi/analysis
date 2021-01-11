@@ -4,7 +4,7 @@ seo_description: "Creating a CI/CD Azure Pipeline for a dbt data warehouse on Go
 
 # CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines
 
-```
+```yaml
 ---
 trigger:
   batch: true
