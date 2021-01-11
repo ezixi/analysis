@@ -6,6 +6,8 @@ seo_description: "Creating a CI/CD Azure Pipeline for a dbt data warehouse on Go
 
 ## Defaults
 
+First, set some defaults
+
 ```yaml
 ---
 trigger:
@@ -30,8 +32,8 @@ variables:
 
 ## Deployment Steps
 
-1. Checkout repo
- 
+### Checkout repo
+
 ```yaml
 steps:
   - checkout: self
@@ -39,7 +41,7 @@ steps:
     path: <repo name>
 ```
 
-1. Download required files
+### Download required files
 
 ```yaml
   - task: DownloadSecureFile@1
@@ -55,7 +57,7 @@ steps:
       secureFile: 'profiles.yml'
 ```
 
-1. Cache Dependencies
+### Cache Dependencies
 
 ```yaml
   - task: Cache@2
@@ -68,7 +70,7 @@ steps:
     displayName: Cache pip packages
 ```
 
-1. Set Up dbt
+### Set Up dbt
 
 ```yaml
   - script: |
@@ -80,7 +82,7 @@ steps:
     displayName: Installing Profile
 ```
 
-1. Create and Test the dbt models
+### Create and Test the dbt models
 
 ```yaml
   - script: |
