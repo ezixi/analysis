@@ -1,10 +1,16 @@
+---
 toc:
-  - title: Random
+  - title: Data Ops
     subfolderitems:
+      - page: CI/CD for DBT and Google Big Query Using Azure Pipelines
+        url: /Data-Ops/ci-cd-for-dbt-big-query-on-azure
       - page: Run dbt Tests on Your Models Automatically On Commit
-        url: /Random/run-dbt-tests-on-commit.html
+        url: /Data-Ops/run-dbt-tests-on-commit.html
+
+  - title: Code
+    subfolderitems:
       - page: No, Coding Is Required
-        url: /Random/no-coding-is-required.html
+        url: /Code/no-coding-is-required.html
 
   - title: Principles
     subfolderitems:
@@ -16,13 +22,12 @@ toc:
         url: /Principles/creating-a-data-strategy.html
 
 
-
-  # - title: Asymptosy
-  #   subfolderitems:
-  #     - page: Introduction
-  #       url: /Asymptosy/index.html
-  #     - page: Voyager
-  #       url: /Asymptosy/voyager/index.html
-  #       subsubfolderitems:
-  #         - page: Voyager And The Solar Wind
-  #           url: /Asymptosy/voyager/solar_wind.html
+# - title: Asymptosy
+#   subfolderitems:
+#     - page: Introduction
+#       url: /Asymptosy/index.html
+#     - page: Voyager
+#       url: /Asymptosy/voyager/index.html
+#       subsubfolderitems:
+#         - page: Voyager And The Solar Wind
+#           url: /Asymptosy/voyager/solar_wind.html
