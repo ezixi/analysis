@@ -115,7 +115,7 @@ To make sure that dbt runs correctly and has access to the warehouse, I create s
 
 ### Create and Test the dbt models
 
-Finally, I install dbt, run the models and test them. The build will fail if the tests fail, alerting you to a problem, but the models will be built so it is important to get alerted to any errors. It’s also important to [run tests on your dbt models](https://analysis.backhand.tech/Dev-Ops/run-dbt-tests-on-commit.html) throughout the software development lifecycle.
+Finally, I install dbt, run the models and test them. The build will fail if the tests fail, alerting you to a problem, but the models will be built so it is important to get alerted to any errors. It’s also important to [run tests on your dbt models](https://analysis.backhand.tech/Data-Ops/run-dbt-tests-on-commit.html) throughout the software development lifecycle.
 
 ```yaml
   - script: |

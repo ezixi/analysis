@@ -1,15 +1,14 @@
 ---
 toc:
-  - title: Dev Ops
+  - title: Data Ops
     subfolderitems:
       - page: CI/CD for DBT and Google Big Query Using Azure Pipelines
-        url: /Dev-Ops/ci-cd-for-dbt-big-query-on-azure
+        url: /Data-Ops/ci-cd-for-dbt-big-query-on-azure
       - page: Run dbt Tests on Your Models Automatically On Commit
-        url: /Dev-Ops/run-dbt-tests-on-commit.html
+        url: /Data-Ops/run-dbt-tests-on-commit.html
 
   - title: Code
     subfolderitems:
-
       - page: No, Coding Is Required
         url: /Code/no-coding-is-required.html
 
