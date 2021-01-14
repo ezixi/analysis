@@ -3,7 +3,8 @@
 
 ## Data Ops
 
-<h3><a href="http://analysis.backhand.tech/Data-Ops/ci-cd-for-dbt-big-query-on-azure">CI/CD for DBT and Google Big Query Using Azure Pipelines</a></h3>Create Continuous deployment for you Big Query data warehouse using dbt and Azure Pipelines
+<h3><a href="http://analysis.backhand.tech/Data-Ops/ci-cd-for-dbt-big-query-on-azure">CI/CD for DBT and Google Big Query Using Azure Pipelines</a></h3>
+Create continuous deployment for your Big Query data warehouse using dbt and Azure Pipelines.
 <h3><a href="http://analysis.backhand.tech/Data-Ops/run-dbt-tests-on-commit.html">Run dbt Tests on Your Models Automatically On Commit</a></h3>
 dbt tests are the best(s), but it always seemed to be something that I would have to remind my team to perform before they committed their changes to the repo.  Using the pre-commit framework, it’s a simple matter to make tests a requirement to a commit.
 
