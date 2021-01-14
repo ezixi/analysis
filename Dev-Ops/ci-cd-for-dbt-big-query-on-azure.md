@@ -4,7 +4,7 @@ seo_description: "Creating a CI/CD Azure Pipeline for a dbt data warehouse on Go
 ---
 
 # Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines
-<figure class="figure"><img src=""https://backhand.tech/images/blog/anatomy_of_a_pipeline.png"" alt="Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines"/></figure>
+<figure class="figure"><img src="https://backhand.tech/images/blog/anatomy_of_a_pipeline.png" alt="Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines"/></figure>
 Setting up continuous deployment for your dbt data warehouse has never been simpler. The big code repositories (Github, Gitlab and Azure Dev Ops) all offer tools that automate deploying model changes into production; usually by creating a docker container, pulling in all code and dependencies, running and then tearing it all down again.
 
 Using [Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/), this checkout and run process is specified in yaml that lives in your repo. Follow the steps below to automate the deployment of your dbt models on a Big Query data warehouse.
