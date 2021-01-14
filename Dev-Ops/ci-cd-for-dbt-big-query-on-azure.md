@@ -4,7 +4,7 @@ seo_description: "Creating a CI/CD Azure Pipeline for a dbt data warehouse on Go
 ---
 
 # Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines
-<figure class="figure"><img src="https://backhand.tech/images/blog/anatomy_of_a_pipeline.png" alt="Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines"/></figure>
+<figure class="figure text-center"><img src="https://backhand.tech/images/blog/anatomy_of_a_pipeline.png" alt="Anatomy of A Pipeline: CI/CD For a dbt Data Warehouse on Google Big Query Using Azure Pipelines"/></figure>
 Setting up continuous deployment for your dbt data warehouse has never been simpler. The big code repositories (Github, Gitlab and Azure Dev Ops) all offer tools that automate deploying model changes into production; usually by creating a docker container, pulling in all code and dependencies, running and then tearing it all down again.
 
 Using [Azure Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/), this checkout and run process is specified in yaml that lives in your repo. Follow the steps below to automate the deployment of your dbt models on a Big Query data warehouse.
@@ -115,7 +115,7 @@ To make sure that dbt runs correctly and has access to the warehouse, I create s
 
 ### Create and Test the dbt models
 
-Finally, I install dbt, run the models and test them. The build will fail if the tests fail, alerting you to a problem, but the models will be built so it is important to get alerted to any errors. It’s also important to [run tests on your dbt models](https://analysis.backhand.tech/Random/run-dbt-tests-on-commit.html) throughout the software development lifecycle.
+Finally, I install dbt, run the models and test them. The build will fail if the tests fail, alerting you to a problem, but the models will be built so it is important to get alerted to any errors. It’s also important to [run tests on your dbt models](https://analysis.backhand.tech/Dev-Ops/run-dbt-tests-on-commit.html) throughout the software development lifecycle.
 
 ```yaml
   - script: |
