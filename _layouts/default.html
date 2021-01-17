@@ -13,7 +13,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="https://backhand.tech/images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="https://backhand.tech/images/favicon-16x16.png">
         <link rel="manifest" href="https://backhand.tech/images/site.webmanifest">
-        <link rel="canonical" href="https://analysis.backhand.tech{{ page.url }}" />
+        <link rel="canonical" href="https://analysis.backhand.tech{{ page.url | replace:'.html','' }}" />
         <meta name="keywords" content=" Data Engineering, Data Analysis, Google Analytics, Business Intelligence, Glasgow, UK, remote" />
         <meta name="description" content="{{ page.seo_description | default: 'Data Makes Your Business Grow. Get in touch if you need help improving how you use your data.' }}" />
         <meta name="google-site-verification" content="xqq5GLMntNHUki25gv2mXI4Z4IDWFA5am7skqRj_9pU" />
@@ -22,7 +22,7 @@
         <meta name="twitter:creator" content="@backhandtech" />
         <meta name="twitter:image" content="{{ page.feature_image | default: 'https://backhand.tech/images/social.jpg' }}" />
         <meta name="twitter:image:alt" content="{{ page.seo_description | default: 'Data Makes Your Business Grow. Get in touch if you need help improving how you use your data.' }}">
-        <meta property="og:url" content="https://analysis.backhand.tech{{ page.url }}" />
+        <meta property="og:url" content="https://analysis.backhand.tech{{ page.url | replace:'.html','' }}" />
         <meta property="og:title" content="{{ page.title | default: site.title }}" />
         <meta property="og:description" content="{{ page.seo_description | default: 'Data Makes Your Business Grow. Get in touch if you need help improving how you use your data.' }}" />
         <meta property="og:image" content="{{ page.feature_image | default: 'https://backhand.tech/images/social.jpg' }}" />
@@ -112,7 +112,7 @@
                                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                                 </span>
                                 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-                                <script type="IN/Share" data-url="https://analysis.backhand.tech{{ page.url }}"></script>
+                                <script type="IN/Share" data-url="https://analysis.backhand.tech{{ page.url | replace:'.html','' }}"></script>
                             </div>
                         </div>
                         <div class="col-lg-3 subnav">
